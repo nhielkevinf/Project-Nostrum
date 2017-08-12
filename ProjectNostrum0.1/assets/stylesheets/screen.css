@@ -1,0 +1,1304 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/_header.scss */
+html body > header#header_top {
+  background-color: #1f3f66;
+  height: 88px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* line 13, ../sass/_header.scss */
+html body > header#header_top #main_logo {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 19px;
+  background-color: #1f3f66;
+}
+/* line 20, ../sass/_header.scss */
+html body > header#header_top #main_nav {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 30px;
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  link-decoration: none;
+  background-color: #1f3f66;
+}
+/* line 31, ../sass/_header.scss */
+html body > header#header_top #main_nav li {
+  list-style: none;
+  float: left;
+  width: 150px;
+}
+/* line 38, ../sass/_header.scss */
+html body > header#header_top #main_search {
+  width: 25%;
+  float: right;
+}
+/* line 43, ../sass/_header.scss */
+html body > header#header_top #main_search #search_top {
+  width: 250px;
+  margin-top: 9%;
+  font-size: 25px;
+  border: solid 3px white;
+  background-color: #1f3f66;
+  background-image: url("../images/NXTLVL_WEBDEV_ICON_MAGNIFYING.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 5%;
+  padding-left: 50px;
+  color: white;
+}
+
+/* line 6, ../sass/_mainsec.scss */
+html body > section #body_background {
+  background-image: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
+  background-size: 100% auto;
+  height: 566px;
+  clear: both;
+}
+/* line 12, ../sass/_mainsec.scss */
+html body > section #body_background #text_background {
+  float: left;
+  list-style: none;
+  color: #1f3f66;
+  clear: both;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-left: 200px;
+  text-align: left;
+  width: 100%;
+}
+/* line 23, ../sass/_mainsec.scss */
+html body > section #body_background #text_background .li_1 {
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 500;
+}
+/* line 29, ../sass/_mainsec.scss */
+html body > section #body_background #text_background .li_2 {
+  font-size: 220%;
+  letter-spacing: 1px;
+}
+/* line 35, ../sass/_mainsec.scss */
+html body > section #body_background #text_background #l3 {
+  padding-top: 10px;
+}
+/* line 40, ../sass/_mainsec.scss */
+html body > section #body_background #img_2 {
+  width: 400px;
+  float: right;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+/* line 48, ../sass/_mainsec.scss */
+html body > section #body_background #nav_background {
+  width: 50%;
+  float: left;
+  padding-top: 30px;
+  padding-left: 200px;
+  text-align: left;
+}
+/* line 55, ../sass/_mainsec.scss */
+html body > section #body_background #nav_background #button {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #19d019;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+/* line 4, ../sass/_firstfooter.scss */
+html body > footer#first_footer {
+  background-color: #c0c0c0;
+  background-size: 100% auto;
+  height: 88px;
+  text-align: center;
+  padding-bottom: 15px;
+  list-style: none;
+}
+/* line 12, ../sass/_firstfooter.scss */
+html body > footer#first_footer .footer_logo {
+  width: 3%;
+  padding-left: 80px;
+  padding-top: 18px;
+  box-sizing: border-box;
+  float: left;
+}
+/* line 20, ../sass/_firstfooter.scss */
+html body > footer#first_footer .footer_text {
+  width: 25%;
+  box-sizing: border-box;
+  padding-left: 45px;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #1f3f66;
+  text-align: left;
+  float: left;
+  font-family: Arial;
+}
+
+/* line 6, ../sass/_lowersection.scss */
+html body > section#lower_section #section_img {
+  text-align: center;
+}
+/* line 8, ../sass/_lowersection.scss */
+html body > section#lower_section #section_img #iphone_img {
+  width: 250px;
+  float: left;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+/* line 15, ../sass/_lowersection.scss */
+html body > section#lower_section #lower_text {
+  float: left;
+  text-align: left;
+  list-style: none;
+  padding-top: 50px;
+  padding-left: 30px;
+  color: #1f3f66;
+}
+/* line 22, ../sass/_lowersection.scss */
+html body > section#lower_section #lower_text #li5 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+/* line 27, ../sass/_lowersection.scss */
+html body > section#lower_section #lower_text .li_3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+/* line 31, ../sass/_lowersection.scss */
+html body > section#lower_section #lower_text #lower_button {
+  padding-top: 30px;
+}
+/* line 34, ../sass/_lowersection.scss */
+html body > section#lower_section #lower_text #lower_button #button2 {
+  width: 200px;
+  font-size: 30px;
+  background-color: #19d019;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+/* line 5, ../sass/_lastfooter.scss */
+html body > footer#last_footer {
+  font-size: 50px;
+  list-style: none;
+  color: #1f3f66;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  box-sizing: border-box;
+}
+/* line 13, ../sass/_lastfooter.scss */
+html body > footer#last_footer #left_footer {
+  width: 45%;
+  float: left;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+/* line 19, ../sass/_lastfooter.scss */
+html body > footer#last_footer #phone_left {
+  float: left;
+  clear: both;
+  padding-top: 20px;
+  padding-left: 160px;
+}
+/* line 25, ../sass/_lastfooter.scss */
+html body > footer#last_footer #left_symbols {
+  float: left;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+/* line 30, ../sass/_lastfooter.scss */
+html body > footer#last_footer #left_symbols .li_4 {
+  margin-top: 15%;
+}
+/* line 34, ../sass/_lastfooter.scss */
+html body > footer#last_footer #symbol_text {
+  font-size: 20px;
+  float: left;
+  padding-top: 10px;
+}
+/* line 38, ../sass/_lastfooter.scss */
+html body > footer#last_footer #symbol_text .li_5 {
+  background-color: #c0c0c0;
+  margin-top: 7%;
+  height: 50px;
+  width: 280px;
+  text-align: center;
+  clear: both;
+  box-sizing: border-box;
+  margin-left: -10%;
+  z-index: -1;
+  position: relative;
+}
+/* line 51, ../sass/_lastfooter.scss */
+html body > footer#last_footer #symbol_text #li12 {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+/* line 55, ../sass/_lastfooter.scss */
+html body > footer#last_footer #symbol_text #li13 {
+  margin-top: 14%;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+/* line 59, ../sass/_lastfooter.scss */
+html body > footer#last_footer #symbol_text #li14 {
+  margin-top: 13%;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+/* line 65, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer {
+  float: right;
+  margin-right: 7%;
+  margin-top: 1%;
+}
+/* line 69, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer #first_tab {
+  font-size: 25px;
+  border: solid 1px #1f3f66;
+  width: 235px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 50px;
+  margin-right: 303px;
+  margin-top: -29px;
+  background-color: #1f3f66;
+  color: white;
+  padding: 10px;
+}
+/* line 83, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer #second_tab {
+  font-size: 25px;
+  border: solid 1px #f9b046;
+  float: right;
+  background-color: #f9b046;
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: -50px;
+  color: white;
+  padding: 10px;
+  padding-left: 35px;
+  z-index: -1;
+  position: relative;
+  margin-right: 15%;
+}
+/* line 100, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer .li_6 {
+  float: right;
+  width: 84.9%;
+  height: 230px;
+  margin-right: 81px;
+  background-color: #1f3f66;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: -7px;
+}
+/* line 109, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer .li_6 .first {
+  font-size: 25px;
+  line-height: 100%;
+  margin-top: 4%;
+  width: 350px;
+  height: 42px;
+  margin-left: 0;
+  border-radius: 5px;
+  border: none;
+}
+/* line 119, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer .li_6 #first_form {
+  margin-top: 7%;
+}
+/* line 122, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer .li_6 #second_form {
+  margin-top: 5%;
+}
+/* line 125, ../sass/_lastfooter.scss */
+html body > footer#last_footer #right_footer .li_6 #button3 {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #19d019;
+  color: white;
+  margin-top: 4%;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  float: right;
+  margin-right: 12%;
+}
+
+@media only screen and (max-width: 1355px) {
+  /* line 3, ../sass/_responsive.scss */
+  .li_6 {
+    margin-left: 108px;
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1352px) {
+  /* line 11, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1351px) {
+  /* line 18, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1344px) {
+  /* line 25, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1339px) {
+  /* line 32, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1337px) {
+  /* line 39, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1327px) {
+  /* line 46, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  /* line 53, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 1339px) {
+  /* line 59, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1308px) {
+  /* line 66, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 1304px) {
+  /* line 73, ../sass/_responsive.scss */
+  #d_nav1 {
+    margin-left: -1%;
+  }
+
+  /* line 77, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -1%;
+  }
+}
+@media only screen and (max-width: 1303px) {
+  /* line 84, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -1%;
+  }
+}
+@media only screen and (max-width: 1303px) {
+  /* line 90, ../sass/_responsive.scss */
+  #img_2 {
+    margin-left: 5%;
+  }
+
+  /* line 94, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: -5%;
+  }
+
+  /* line 97, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -5%;
+  }
+}
+@media only screen and (max-width: 1289px) {
+  /* line 103, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -2%;
+  }
+}
+@media only screen and (max-width: 1284px) {
+  /* line 109, ../sass/_responsive.scss */
+  #left_img {
+    margin-left: 0%;
+  }
+
+  /* line 112, ../sass/_responsive.scss */
+  #right_footer {
+    margin-right: 2% !important;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  /* line 122, ../sass/_responsive.scss */
+  #d_nav1 {
+    margin-left: -2%;
+  }
+}
+@media only screen and (max-width: 1276px) {
+  /* line 128, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -3%;
+  }
+}
+@media only screen and (max-width: 1275px) {
+  /* line 137, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -3%;
+  }
+}
+@media only screen and (max-width: 1271px) {
+  /* line 143, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: -7%;
+  }
+
+  /* line 146, ../sass/_responsive.scss */
+  #li8 {
+    margin-left: -10%;
+  }
+
+  /* line 149, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -8%;
+  }
+
+  /* line 152, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+    margin-left: 111px;
+  }
+}
+@media only screen and (max-width: 1269px) {
+  /* line 160, ../sass/_responsive.scss */
+  #d_nav1 {
+    margin-left: -3%;
+  }
+
+  /* line 163, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -3%;
+  }
+
+  /* line 166, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 1266px) {
+  /* line 175, ../sass/_responsive.scss */
+  #d_nav1 {
+    margin-left: -3%;
+  }
+
+  /* line 178, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -7%;
+  }
+}
+@media only screen and (max-width: 1264px) {
+  /* line 191, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1263px) {
+  /* line 201, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: -5%;
+  }
+
+  /* line 204, ../sass/_responsive.scss */
+  #li8 {
+    margin-left: -15%;
+  }
+
+  /* line 207, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -6%;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  /* line 215, ../sass/_responsive.scss */
+  .li_6 {
+    margin-left: -1%;
+  }
+}
+@media only screen and (max-width: 1258px) {
+  /* line 222, ../sass/_responsive.scss */
+  body {
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    width: 100%;
+    alignment: center;
+  }
+
+  /* line 229, ../sass/_responsive.scss */
+  header {
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1256px) {
+  /* line 238, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+    margin-left: 108px;
+  }
+}
+@media only screen and (max-width: 1249px) {
+  /* line 245, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1243px) {
+  /* line 252, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1237px) {
+  /* line 258, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1229px) {
+  /* line 265, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1223px) {
+  /* line 272, ../sass/_responsive.scss */
+  #img_2 {
+    margin-left: 5%;
+  }
+
+  /* line 275, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: -10%;
+  }
+
+  /* line 278, ../sass/_responsive.scss */
+  #li8 {
+    margin-left: -32%;
+  }
+
+  /* line 281, ../sass/_responsive.scss */
+  #phone_left {
+    margin-left: -10%;
+  }
+}
+@media only screen and (max-width: 1221px) {
+  /* line 288, ../sass/_responsive.scss */
+  #li5 {
+    font-size: 45px;
+  }
+
+  /* line 291, ../sass/_responsive.scss */
+  #li8 {
+    margin-left: -25%;
+    font-size: 45px;
+  }
+
+  /* line 295, ../sass/_responsive.scss */
+  #right_footer {
+    margin-left: 3.5%;
+  }
+
+  /* line 298, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 1214px) {
+  /* line 304, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1208px) {
+  /* line 311, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1206px) {
+  /* line 318, ../sass/_responsive.scss */
+  #right_footer {
+    margin-top: -4% !important;
+  }
+}
+@media only screen and (max-width: 1213px) {
+  /* line 326, ../sass/_responsive.scss */
+  #right_footer {
+    position: absolute;
+    left: 45%;
+    top: 187%;
+  }
+
+  /* line 332, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+    margin-left: 111px;
+  }
+}
+@media only screen and (max-width: 1212px) {
+  /* line 339, ../sass/_responsive.scss */
+  #body_backgroud {
+    background: no-repeat;
+  }
+
+  /* line 342, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -1%;
+  }
+}
+@media only screen and (max-width: 1197px) {
+  /* line 349, ../sass/_responsive.scss */
+  .li_6 {
+    padding-left: 1px;
+  }
+}
+@media only screen and (max-width: 1185px) {
+  /* line 357, ../sass/_responsive.scss */
+  #body_backgroud {
+    background: no-repeat;
+  }
+
+  /* line 360, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -2%;
+  }
+}
+@media only screen and (max-width: 1178px) {
+  /* line 367, ../sass/_responsive.scss */
+  #last_footer {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1208px) {
+  /* line 373, ../sass/_responsive.scss */
+  #body_background {
+    background: no-repeat;
+  }
+
+  /* line 376, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -3%;
+  }
+}
+@media only screen and (max-width: 1149px) {
+  /* line 383, ../sass/_responsive.scss */
+  #text_background {
+    margin-left: -10%;
+  }
+
+  /* line 386, ../sass/_responsive.scss */
+  .li_2 {
+    color: white;
+  }
+
+  /* line 389, ../sass/_responsive.scss */
+  #button {
+    margin-left: -20%;
+  }
+
+  /* line 392, ../sass/_responsive.scss */
+  #img_2 {
+    margin-left: 5%;
+  }
+
+  /* line 395, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -3%;
+  }
+
+  /* line 398, ../sass/_responsive.scss */
+  #right_footer {
+    position: absolute;
+    top: 183%;
+  }
+}
+@media only screen and (max-width: 1116px) {
+  /* line 404, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -5%;
+  }
+
+  /* line 407, ../sass/_responsive.scss */
+  .li_2 {
+    color: white;
+  }
+
+  /* line 410, ../sass/_responsive.scss */
+  #right_footer {
+    position: absolute;
+    top: 179%;
+  }
+}
+@media only screen and (max-width: 1109px) {
+  /* line 417, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -5%;
+  }
+
+  /* line 421, ../sass/_responsive.scss */
+  .footer_logo {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin-left: -5%;
+  }
+
+  /* line 427, ../sass/_responsive.scss */
+  #flogo2 {
+    margin-left: -1%;
+  }
+
+  /* line 430, ../sass/_responsive.scss */
+  #flogo3 {
+    margin-left: -1%;
+  }
+
+  /* line 434, ../sass/_responsive.scss */
+  .li_2 {
+    color: white;
+  }
+
+  /* line 437, ../sass/_responsive.scss */
+  #right_footer {
+    position: absolute;
+    top: 180%;
+  }
+}
+@media only screen and (max-width: 1102px) {
+  /* line 444, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: 25%;
+  }
+
+  /* line 447, ../sass/_responsive.scss */
+  #lower_text {
+    margin-left: 15%;
+  }
+
+  /* line 450, ../sass/_responsive.scss */
+  #li8 {
+    position: absolute;
+    left: 53%;
+  }
+
+  /* line 454, ../sass/_responsive.scss */
+  #left_img {
+    position: absolute;
+    top: 220%;
+    left: 16%;
+  }
+
+  /* line 459, ../sass/_responsive.scss */
+  #left_symbols {
+    position: absolute;
+    top: 220%;
+    left: 39%;
+  }
+
+  /* line 464, ../sass/_responsive.scss */
+  #symbol_text {
+    position: absolute;
+    top: 220%;
+    left: 47.5%;
+  }
+
+  /* line 470, ../sass/_responsive.scss */
+  #right_footer {
+    top: 270%;
+    left: 25%;
+  }
+}
+@media only screen and (max-width: 1094px) {
+  /* line 477, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -6%;
+  }
+}
+@media only screen and (max-width: 1091px) {
+  /* line 483, ../sass/_responsive.scss */
+  #left_img {
+    margin-top: -8%;
+  }
+
+  /* line 486, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-top: -8%;
+  }
+
+  /* line 489, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-top: -8%;
+  }
+
+  /* line 492, ../sass/_responsive.scss */
+  #li14 {
+    margin-top: 14% !important;
+  }
+
+  /* line 496, ../sass/_responsive.scss */
+  #right_footer {
+    margin-top: -5% !important;
+  }
+}
+@media only screen and (max-width: 1074px) {
+  /* line 503, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -7%;
+  }
+
+  /* line 506, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: 25%;
+  }
+
+  /* line 509, ../sass/_responsive.scss */
+  #lower_text {
+    margin-left: 15%;
+  }
+
+  /* line 512, ../sass/_responsive.scss */
+  #li8 {
+    position: absolute;
+    left: 53%;
+  }
+
+  /* line 516, ../sass/_responsive.scss */
+  #left_img {
+    position: absolute;
+    top: 205%;
+    left: 16%;
+  }
+
+  /* line 521, ../sass/_responsive.scss */
+  #left_symbols {
+    position: absolute;
+    top: 205%;
+    left: 39%;
+  }
+
+  /* line 526, ../sass/_responsive.scss */
+  #symbol_text {
+    position: absolute;
+    top: 205%;
+    left: 47.5%;
+  }
+
+  /* line 532, ../sass/_responsive.scss */
+  #right_footer {
+    top: 255%;
+    left: 25%;
+  }
+}
+@media only screen and (max-width: 1208px) {
+  /* line 539, ../sass/_responsive.scss */
+  #li8 {
+    margin-top: -2%;
+  }
+
+  /* line 542, ../sass/_responsive.scss */
+  #left_img {
+    margin-top: -2%;
+  }
+
+  /* line 545, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-top: -2%;
+  }
+
+  /* line 548, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-top: -2%;
+  }
+
+  /* line 551, ../sass/_responsive.scss */
+  #right_footer {
+    margin-top: -1% !important;
+  }
+}
+@media only screen and (max-width: 1208px) {
+  /* line 557, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-left: 1%;
+  }
+
+  /* line 560, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-left: 1%;
+  }
+}
+@media only screen and (max-width: 1041px) {
+  /* line 568, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -9%;
+  }
+
+  /* line 571, ../sass/_responsive.scss */
+  #left_symbols {
+    position: absolute;
+    top: 205%;
+    left: 40%;
+  }
+
+  /* line 576, ../sass/_responsive.scss */
+  #symbol_text {
+    position: absolute;
+    top: 205%;
+    left: 48%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  /* line 585, ../sass/_responsive.scss */
+  section {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  /* line 591, ../sass/_responsive.scss */
+  section#body_backgroud {
+    position: absolute;
+    width: 40%;
+  }
+
+  /* line 595, ../sass/_responsive.scss */
+  #img_2 {
+    position: relative;
+    margin-right: 2%;
+    margin-top: 5%;
+    width: 40%;
+  }
+
+  /* line 601, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -10%;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  /* line 607, ../sass/_responsive.scss */
+  #main_logo {
+    margin-left: -3%;
+  }
+
+  /* line 610, ../sass/_responsive.scss */
+  #main_nav {
+    margin-left: -2%;
+    float: none;
+    width: 55% !important;
+  }
+
+  /* line 615, ../sass/_responsive.scss */
+  #main_search {
+    margin-left: -4%;
+    width: 29% !important;
+  }
+
+  /* line 619, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-left: 1%;
+  }
+
+  /* line 622, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 1009px) {
+  /* line 628, ../sass/_responsive.scss */
+  #main_logo {
+    margin-left: -3%;
+  }
+
+  /* line 631, ../sass/_responsive.scss */
+  #main_nav {
+    margin-left: -2%;
+    float: none;
+    width: 55% !important;
+  }
+
+  /* line 636, ../sass/_responsive.scss */
+  #main_search {
+    margin-left: -4%;
+    width: 28% !important;
+  }
+}
+@media only screen and (max-width: 1004px) {
+  /* line 642, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -11%;
+  }
+
+  /* line 645, ../sass/_responsive.scss */
+  #body_background {
+    background: no-repeat;
+  }
+}
+@media only screen and (max-width: 986px) {
+  /* line 651, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -12%;
+  }
+}
+@media only screen and (max-width: 970px) {
+  /* line 657, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -13%;
+    margin-left: -2%;
+  }
+}
+@media only screen and (max-width: 963px) {
+  /* line 666, ../sass/_responsive.scss */
+  #left_img {
+    margin-left: -1%;
+    margin-top: -7%;
+  }
+
+  /* line 670, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-top: -7%;
+  }
+
+  /* line 673, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-top: -7%;
+  }
+
+  /* line 676, ../sass/_responsive.scss */
+  #right_footer {
+    margin-top: -5% !important;
+  }
+}
+@media only screen and (max-width: 960px) {
+  /* line 683, ../sass/_responsive.scss */
+  #first_footer {
+    margin-top: -15%;
+    padding: 0;
+    float: none;
+    text-align: center;
+    height: 285px !important;
+  }
+
+  /* line 690, ../sass/_responsive.scss */
+  #flogo1 {
+    margin-left: 5%;
+  }
+
+  /* line 693, ../sass/_responsive.scss */
+  #flogo2 {
+    margin-top: 10%;
+    margin-left: -33%;
+  }
+
+  /* line 697, ../sass/_responsive.scss */
+  #pre2 {
+    margin-top: 50%;
+    margin-left: -122%;
+  }
+
+  /* line 701, ../sass/_responsive.scss */
+  #flogo3 {
+    margin-top: 20%;
+    margin-left: -58%;
+  }
+
+  /* line 705, ../sass/_responsive.scss */
+  #pre3 {
+    margin-top: 100%;
+    margin-left: -245%;
+  }
+
+  /* line 709, ../sass/_responsive.scss */
+  #iphone_img {
+    margin-left: -3%;
+  }
+
+  /* line 712, ../sass/_responsive.scss */
+  #lower_text {
+    margin-left: 10%;
+  }
+
+  /* line 715, ../sass/_responsive.scss */
+  #li8 {
+    margin-top: -3%;
+    margin-left: -40%;
+  }
+
+  /* line 719, ../sass/_responsive.scss */
+  #left_img {
+    margin-top: 10%;
+    margin-left: -17%;
+  }
+
+  /* line 723, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-top: 10%;
+    margin-left: -15%;
+  }
+
+  /* line 727, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-top: 10%;
+    margin-left: -13%;
+  }
+
+  /* line 731, ../sass/_responsive.scss */
+  #right_footer {
+    margin-top: 15% !important;
+    margin-left: -12%;
+  }
+}
+@media only screen and (max-width: 1208px) {
+  /* line 739, ../sass/_responsive.scss */
+  #section_img {
+    margin-left: -9% !important;
+  }
+
+  /* line 742, ../sass/_responsive.scss */
+  #lower_text {
+    margin-left: 1%;
+  }
+
+  /* line 745, ../sass/_responsive.scss */
+  #li8 {
+    margin-left: -49%;
+  }
+
+  /* line 748, ../sass/_responsive.scss */
+  #left_img {
+    margin-left: -26%;
+  }
+
+  /* line 751, ../sass/_responsive.scss */
+  #left_symbols {
+    margin-left: -23%;
+  }
+
+  /* line 754, ../sass/_responsive.scss */
+  #symbol_text {
+    margin-left: -21%;
+  }
+
+  /* line 757, ../sass/_responsive.scss */
+  #right_footer {
+    margin-top: 10% !important;
+    margin-left: -21%;
+  }
+}
+/* line 18, ../sass/screen.scss */
+html body {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  float: none;
+  alignment: center;
+  text-align: center;
+}
